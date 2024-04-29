@@ -1,8 +1,8 @@
-<template>
+<template> 
   <div id="app">
     <div class="welcome-message" v-if="isLoggedIn">
       <p class="welcome-text">안녕하세요, <span class="user-name">{{ user.name }}</span>님!</p>
-      <p class="description">오늘도 즐거운 식물 관리하세요.</p>
+      <p class="description">leafy 2차,,, 어휴</p>
     </div>
     <div class="brand" v-if="isLoggedIn">
       LEAFY
